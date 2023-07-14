@@ -27,7 +27,7 @@ export default function Contactame(){
     return (
         <section className="flex flex-col gap-y-[2rem] pt-[5rem] pb-[6rem] ">
             <h2 className="font-bold text-[1rem]">Contactame</h2>
-            <form ref={form} onSubmit={sendEmail} action="" className="flex flex-col gap-y-[1.6rem] w-[70%] mx-[auto] ">
+            <form ref={form} onSubmit={sendEmail} action="" className="flex flex-col gap-y-[1.6rem] w-[85%] sm:w-[80%] md:w-[85%] lg:w-[70%] mx-[auto] ">
                 <label htmlFor="" className="flex flex-col gap-y-[0.2rem]">
                 <input type="text" name='user_name' className={`bg-[#111111] border-b-[1px] focus:outline-none pb-[0.2rem]`}/>
                 <span>Nombre</span>

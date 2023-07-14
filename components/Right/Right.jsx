@@ -34,8 +34,8 @@ export default function Right() {
     // },[scrollPoint])
 
     return (
-        <main className="w-[100%] sm:w-[60%] sm:ml-[40%] bg-[#111111]">
-            <div className="w-[70%] mx-[auto] pt-[4rem]">
+        <main className="w-[100%] sm:w-[55%] md:w-[60%] sm:ml-[45%] md:ml-[40%] bg-[#111111]">
+            <div className="w-[90%] md:w-[70%] mx-[auto] pt-[4rem] ">
             <div className="flex flex-col gap-y-[2rem] justify-between">
                 <div className="block sm:hidden">
                     <h1 className="font-bold text-[2.4rem]">Nahuel Chamorro</h1>
