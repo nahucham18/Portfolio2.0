@@ -8,7 +8,7 @@ export default function Tecnologias(){
         
        <section className='flex flex-col gap-y-[2rem]  pt-[5rem] pb-[1rem]'>
         <h2 className='font-bold text-[0.9rem]'>Tecnologias.</h2>
-         <div className="flex gap-[1rem] flex-wrap w-[80%] mx-[auto]">
+         <div className="flex gap-[1rem] flex-wrap w-[90%] md:w-[80%] mx-[auto]">
              <AiFillHtml5 className='w-[50px] h-[50px]'/>
              <BiLogoCss3 className='w-[50px] h-[50px]'/>
              <BiLogoJavascript className='w-[50px] h-[50px]'/>
