@@ -5,6 +5,7 @@ import { useEffect, useState } from "react"
 import axios from "axios"
 import { AiFillGithub } from 'react-icons/ai'
 import { SiWebmoney } from 'react-icons/si'
+import {BsRocketTakeoff} from 'react-icons/bs'
 
 
 export default function Proyectos() {
@@ -23,7 +24,7 @@ export default function Proyectos() {
 
     return (
         <section className="flex flex-col gap-y-[2rem] pt-[5rem] pb-[1rem] ">
-            <h2 className="font-bold text-[0.9rem]">Proyectos</h2>
+            <h2 className="font-bold text-[0.9rem]">Proyectos construccion</h2>
             <div className="flex flex-col gap-y-[2rem]">
                 {
                     proyects?.map((proyect, index) => {
@@ -43,7 +44,7 @@ export default function Proyectos() {
                                     </div>
                                     <article className="flex gap-x-[0.4rem]">
                                         <AiFillGithub />
-                                        <SiWebmoney />
+                                        <BsRocketTakeoff/>
                                     </article>
                                 </div>
                             </div>
